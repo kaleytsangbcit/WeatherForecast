@@ -5,7 +5,7 @@ import { useEffect, useRef, useState } from "react";
 import axios from "axios";
 
 export default function Home() {
-    const apiKey = "4c425dbe9d13aa6c6349cdc141f8edbf";
+    const apiKey = process.env.NEXT_PUBLIC_apiKey;
     const location = "vancouver";
     const units = "metric";
 
