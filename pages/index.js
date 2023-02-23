@@ -153,7 +153,7 @@ export default function Home() {
         </div>
 
         <div className={styles.grid}>
-          <div className={styles.card}>{data}</div>
+          <div className={styles.card}>{data} </div>
         </div>
       </main>
     </>
